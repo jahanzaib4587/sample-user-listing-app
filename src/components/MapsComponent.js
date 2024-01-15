@@ -40,5 +40,5 @@ const MapContainer = ({ address, google }) => {
 };
 
 export default GoogleApiWrapper({
-  apiKey: "AIzaSyDk2IpHzurzSnWwYZK9cjKXj28xkzSRAto", // Sample API key
+  apiKey: "", // Sample API key
 })(MapContainer);
